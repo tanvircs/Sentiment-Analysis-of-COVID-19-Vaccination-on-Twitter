@@ -37,14 +37,6 @@ cd <repository_folder>
 pip install -r requirements.txt
 ```
 
-# Sentiment Analysis of COVID-19 Vaccination on Twitter
-
-## Overview
-
-This project performs sentiment analysis on Twitter data related to COVID-19 vaccination using Natural Language Processing (NLP) techniques. The main objective is to understand public sentiment regarding COVID-19 vaccination by classifying tweets into positive, negative, and neutral sentiments.
-
----
-
 ## Results and Visualizations
 
 ### Sentiment Distribution

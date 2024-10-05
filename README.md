@@ -5,6 +5,8 @@ This project analyzes public sentiment on Twitter regarding COVID-19 vaccination
 
 The analysis uses feature extraction methods such as Count Vectorizer, TF-IDF, Word2Vec, and Doc2Vec, and applies a K-Nearest Neighbors (KNN) classifier. The visual outputs, including loss, accuracy graphs, and word clouds, are included below.
 
+---
+
 ## Datasets
 The following datasets are used in this project:
 - **final_data.csv**: The complete dataset of tweets with sentiment labels.

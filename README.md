@@ -32,4 +32,7 @@ Ensure you have Python installed. You can download it here.
 git clone <repository_url>
 cd <repository_folder>
 ```
-2. ***Install dependencies***: Install the required libraries using pip:
+2. **Install dependencies**: Install the required libraries using pip:
+```
+pip install -r requirements.txt
+```

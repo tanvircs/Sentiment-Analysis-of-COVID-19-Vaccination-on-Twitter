@@ -22,6 +22,17 @@ Labels for sentiment:
 - **Modeling**: Train a KNN classifier to predict tweet sentiment.
 - **Evaluation**: Assess model performance with accuracy and loss metrics on training and validation sets.
 
+## Setup and Installation
+### Prerequisites
+Ensure you have Python installed. You can download it here.
+
+### Installation
+Clone the repository:
+```
+git clone <repository_url>
+cd <repository_folder>
+
+
 ### DAX Calculations Examples
 ```dax
 Sales = SUM(Sales_Data[Sales])

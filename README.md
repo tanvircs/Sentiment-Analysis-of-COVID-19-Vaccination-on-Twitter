@@ -36,3 +36,98 @@ cd <repository_folder>
 ```
 pip install -r requirements.txt
 ```
+
+# Sentiment Analysis of COVID-19 Vaccination on Twitter
+
+## Overview
+
+This project performs sentiment analysis on Twitter data related to COVID-19 vaccination using Natural Language Processing (NLP) techniques. The main objective is to understand public sentiment regarding COVID-19 vaccination by classifying tweets into positive, negative, and neutral sentiments.
+
+---
+
+## Results and Visualizations
+
+### Sentiment Distribution
+
+![Sentiment Distribution](./output/Sentiment_Distribution.png)
+
+---
+
+### Training vs Test Data Distribution
+
+![Train Test Distribution](./output/Train_Test_Distribution.png)
+
+---
+
+### Loss and Accuracy for Different Feature Extraction Methods
+
+#### 1. **Count Vectorizer**:
+
+- **Loss**:
+  ![Loss Counter Vectorizer](./output/Loss_CounterVectorizer.png)
+
+- **Accuracy**:
+  ![Accuracy Counter Vectorizer](./output/Classifier_Accuracy_CounterVectorizer.png)
+
+#### 2. **TF-IDF**:
+
+- **Loss**:
+  ![Loss TF-IDF](./output/Loss_TF_IDF.png)
+
+- **Accuracy**:
+  ![Accuracy TF-IDF](./output/Classifier_Accuracy_TF_IDF.png)
+
+#### 3. **Doc2Vec**:
+
+- **Loss**:
+  ![Loss Doc2Feature](./output/Loss_Doc2Feature.png)
+
+- **Accuracy**:
+  ![Accuracy Doc2Feature](./output/Classifier_Accuracy_Doc2Feature.png)
+
+#### 4. **Word2Vec**:
+
+- **Loss**:
+  ![Loss Word2Vec](./output/Loss_Word2Vec.png)
+
+- **Accuracy**:
+  ![Accuracy Word2Vec](./output/Classifier_Accuracy_Word2Vec.png)
+
+---
+
+### Word Clouds
+
+#### Positive Sentiment Word Cloud
+
+![Positive Word Cloud](./output/Positive_Word_Clouds.png)
+
+#### Neutral Sentiment Word Cloud
+
+![Neutral Word Cloud](./output/Neutral_Word_Clouds.png)
+
+#### Negative Sentiment Word Cloud
+
+![Negative Word Cloud](./output/Negative_Word_Clouds.png)
+
+---
+
+### Hashtags Analysis
+
+#### Positive Hashtags
+
+![Positive Hashtags](./output/Positive_Word_Hashtags.png)
+
+#### Neutral Hashtags
+
+![Neutral Hashtags](./output/Neutral_Word_Hashtags.png)
+
+#### Negative Hashtags
+
+![Negative Hashtags](./output/Negative_Word_Hashtags.png)
+
+---
+
+## Conclusion
+
+This project successfully demonstrates the application of NLP and machine learning for sentiment analysis of COVID-19 vaccine-related tweets.
+

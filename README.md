@@ -5,8 +5,6 @@ This project analyzes public sentiment on Twitter regarding COVID-19 vaccination
 
 The analysis uses feature extraction methods such as Count Vectorizer, TF-IDF, Word2Vec, and Doc2Vec, and applies a K-Nearest Neighbors (KNN) classifier. The visual outputs, including loss, accuracy graphs, and word clouds, are included below.
 
----
-
 ## Datasets
 The following datasets are used in this project:
 - **final_data.csv**: The complete dataset of tweets with sentiment labels.
@@ -18,28 +16,11 @@ Labels for sentiment:
 - 1: Positive Sentiment
 - 2: Neutral Sentiment
 
-### Report Objectives
-- **Calculate Total Sales**: Display the total sales value for the selected period.
-- **Calculate Profit**: Visualize the total profit achieved.
-- **Analyze Orders**: Examine the number of orders placed.
-- **Calculate Profit Margin**: Visualize the profit margin percentage.
-- **Compare Sales by Product**: With Previous Year.
-- **Compare Sales by Months**: With Previous Year.
-- **Display Top 5 Cities**: Based on sales.
-- **Compare Profit by Channel**: With Previous Year.
-- **Analyze Sales by Customer**: And compare with the previous year.
-- **Create Slicers**: For Date, City, Product, and Channel.
-
-## Steps for Power BI Project
-1. **Gather Data**: Collect necessary data from various sources.
-2. **Power Query – Data ETL**: Clean and transform the data using Power Query Editor.
-3. **Create a Date Table**: Essential for DAX time intelligence functions.
-4. **Create Data Model**: In Power BI Desktop, representing relationships between tables.
-5. **Develop Reports**: Use Power BI Desktop to create reports with visualizations.
-    - Create report background in PowerPoint.
-    - Implement slicers for Date, City, Product, and Channel.
-    - Develop DAX measures.
-    - Create visuals for sales, profit, and more.
+## Methodology
+- **Data Preprocessing**: Clean and prepare tweet data for feature extraction.
+- **Feature Extraction**: Use methods like Count Vectorizer, TF-IDF, Word2Vec, and Doc2Vec to transform text into numerical features.
+- **Modeling**: Train a KNN classifier to predict tweet sentiment.
+- **Evaluation**: Assess model performance with accuracy and loss metrics on training and validation sets.
 
 ### DAX Calculations Examples
 ```dax

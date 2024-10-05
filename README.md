@@ -31,14 +31,4 @@ Clone the repository:
 ```
 git clone <repository_url>
 cd <repository_folder>
-
-
-### DAX Calculations Examples
-```dax
-Sales = SUM(Sales_Data[Sales])
-Sales PY = CALCULATE([Sales], SAMEPERIODLASTYEAR(DateTable[Date]))
-Sales vs PY = [Sales] - [Sales PY]
-Sales vs py % = DIVIDE([Sales vs PY],[Sales],0)
-Products Sold = SUM(Sales_Data[Order Quantity])
-Profit = SUM(Sales_Data[Profit])
-...
+```

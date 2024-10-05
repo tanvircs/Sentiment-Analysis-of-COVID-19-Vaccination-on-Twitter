@@ -27,8 +27,9 @@ Labels for sentiment:
 Ensure you have Python installed. You can download it here.
 
 ### Installation
-Clone the repository:
+1. #### Clone the repository:
 ```
 git clone <repository_url>
 cd <repository_folder>
 ```
+2. ***Install dependencies***: Install the required libraries using pip:

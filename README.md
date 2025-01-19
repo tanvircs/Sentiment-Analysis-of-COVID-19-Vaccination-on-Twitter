@@ -1,9 +1,13 @@
-# Sentiment-Analysis-of-COVID-19-Vaccination-on-Twitter
+# Sentiment Analysis of COVID-19 Vaccination on Twitter
 
 ## Overview
 This project analyzes public sentiment on Twitter regarding COVID-19 vaccination using Natural Language Processing (NLP) and machine learning techniques. The data contains over 16,000 tweets classified into positive, neutral, and negative sentiments.
 
+[Access the complete paper here](https://www.proquest.com/openview/b01df5dde9b28eeefad90b6ba4b75bab/1?pq-origsite=gscholar&cbl=18750&diss=y)
+
 The analysis uses feature extraction methods such as Count Vectorizer, TF-IDF, Word2Vec, and Doc2Vec, and applies a K-Nearest Neighbors (KNN) classifier. The visual outputs, including loss, accuracy graphs, and word clouds, are included below.
+
+---
 
 ## Datasets
 The following datasets are used in this project:
@@ -16,26 +20,33 @@ Labels for sentiment:
 - 1: Positive Sentiment
 - 2: Neutral Sentiment
 
+---
+
 ## Methodology
 - **Data Preprocessing**: Clean and prepare tweet data for feature extraction.
 - **Feature Extraction**: Use methods like Count Vectorizer, TF-IDF, Word2Vec, and Doc2Vec to transform text into numerical features.
 - **Modeling**: Train a KNN classifier to predict tweet sentiment.
 - **Evaluation**: Assess model performance with accuracy and loss metrics on training and validation sets.
 
+---
+
 ## Setup and Installation
+
 ### Prerequisites
-Ensure you have Python installed. You can download it here.
+Ensure you have Python installed. You can [download it here](https://www.python.org/downloads/).
 
 ### Installation
-1. #### Clone the repository:
-```
-git clone <repository_url>
-cd <repository_folder>
-```
-2. **Install dependencies**: Install the required libraries using pip:
-```
-pip install -r requirements.txt
-```
+1. **Clone the repository**:
+    ```bash
+    git clone <repository_url>
+    cd <repository_folder>
+    ```
+2. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+---
 
 ## Results and Visualizations
 
@@ -121,5 +132,4 @@ pip install -r requirements.txt
 
 ## Conclusion
 
-This project successfully demonstrates the application of NLP and machine learning for sentiment analysis of COVID-19 vaccine-related tweets.
-
+This project successfully demonstrates the application of NLP and machine learning for sentiment analysis of COVID-19 vaccine-related tweets. The insights gathered from this analysis can be used to understand public opinion and tailor communication strategies effectively.
